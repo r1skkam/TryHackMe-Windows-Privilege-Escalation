@@ -1,0 +1,21 @@
+Microsoft Windows [Version 10.0.17763.1821]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\thm-unpriv\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine>type ConsoleHost_history.txt
+ls
+whoami
+whoami /priv
+whoami /group
+whoami /groups
+cmdkey /?
+cmdkey /add:thmdc.local /user:julia.jones /pass:ZuperCkretPa5z
+cmdkey /list
+cmdkey /delete:thmdc.local
+cmdkey /list
+runas /?
+cmdkey /list
+runas /savecred /user:admin cmd.exe
+history
+runas /savecred /user:thm-unpriv cmd.exe
+
+C:\Users\thm-unpriv\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine>
