@@ -1,0 +1,25 @@
+Microsoft Windows [Version 10.0.17763.1821]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>whoami
+wprivesc1\mike.katz
+
+C:\Windows\system32>cd ..\..\Users\mike.katz\Desktop
+
+C:\Users\mike.katz\Desktop>dir
+ Volume in drive C has no label.
+ Volume Serial Number is A8A4-C362
+
+ Directory of C:\Users\mike.katz\Desktop
+
+05/04/2022  05:17 AM    <DIR>          .
+05/04/2022  05:17 AM    <DIR>          ..
+06/21/2016  03:36 PM               527 EC2 Feedback.website
+06/21/2016  03:36 PM               554 EC2 Microsoft Windows Guide.website
+05/04/2022  05:17 AM                24 flag.txt
+               3 File(s)          1,105 bytes
+               2 Dir(s)  15,000,764,416 bytes free
+
+C:\Users\mike.katz\Desktop>type flag.txt
+THM{WHAT_IS_MY_PASSWORD}
+C:\Users\mike.katz\Desktop>
