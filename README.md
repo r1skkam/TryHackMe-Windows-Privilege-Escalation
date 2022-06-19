@@ -26,3 +26,12 @@
 ![image](https://user-images.githubusercontent.com/58542375/174448054-b871f8a7-b76f-49f5-8a14-2c61febdcedc.png)
 
 ## Task 4 Other Quick Wins
+### Scheduled Tasks
+[schtasks commands | Microsoft Docs](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/schtasks)
+
+`C:\> schtasks /query /tn TASK_NAME /fo list /v`
+
+[icacls | Microsoft Docs](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/icacls)
+
+![image](https://user-images.githubusercontent.com/58542375/174490362-6fadde5b-e01b-4123-b00a-328cf64cd093.png)
+
